@@ -93,10 +93,10 @@ const router = createBrowserRouter([
     ),
     children: [
       { path: "", element: <OwnerDashboard /> },
-      { path: "add-turf", element: <AddTurf /> },
+      { path: "add-turf", element: <useAddTurf /> },
       { path: "turfs", element: <TurfManagement /> },
-      { path: "reviews", element: <OwnerReviews /> },
-      { path: "bookings", element: <OwnerBookings /> },
+      { path: "reviews", element: <useOwnerReviews /> },
+      { path: "bookings", element: <useOwnerBookings /> },
     ],
   },
 ]);
